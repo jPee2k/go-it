@@ -8,7 +8,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #f5f7fa;
     padding: 40px 20px 40px 20px;
-
 }
 
 .wrapper {
@@ -148,12 +147,15 @@ body {
     margin-bottom: 10px;
 }
 
-.projects-container a {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-}
+
+/*
+ *.projects-container a {
+ *    color: #595959;
+ *    font-size: 14px;
+ *    font-weight: 400;
+ *    line-height: 24px;
+ *}
+*/
 
 .projects-container span {
     color: #595959;
@@ -231,4 +233,8 @@ body {
     line-height: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.education {
+    margin-bottom: 30px;
 }
