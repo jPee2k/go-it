@@ -1,2 +1,3 @@
 # go-it.github.io
-my CV
+
+[my CV](https://jpee2k.github.io/)
