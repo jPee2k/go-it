@@ -35,7 +35,7 @@ body {
 }
 
 .about-me {
-  padding: 70px 90px 110px 90px;
+  padding: 70px 50px 70px 50px;
 }
 
 @media (max-width: 770px) {
@@ -52,6 +52,8 @@ body {
 
   .about-me {
     order: 1;
+
+    padding: 50px 6vh 50px 6vh;
   }
 
   .sidebar {
