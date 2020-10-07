@@ -5,7 +5,7 @@
 }
 
 body {
-  min-width: 320px;
+  min-width: 279px;
 
   font-family: 'Montserrat', sans-serif;
   background: #f5f7fa;
@@ -15,6 +15,7 @@ body {
 .wrapper {
   display: flex;
 
+  min-width: 279px;
   max-width: 1200px;
   margin: 0 auto;
 
@@ -35,29 +36,54 @@ body {
 }
 
 .about-me {
-  padding: 70px 50px 70px 50px;
+  padding: 70px 5vw 70px 5vw;
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .wrapper {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .sidebar,
-  .photo {
+  .about-me {
+    order: 1;
+
+    padding: 50px 5vw 50px 5vw;
+  }
+
+  .sidebar {
+    position: relative;
+
+    width: 100vw;
+
+    order: 2;
+  }
+
+  .sidebar .photo {
+    position: absolute;
+
+    width: 30vw;
+
+    right: 5vw;
+    top: 10vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sidebar {
     width: 100%;
     height: auto;
   }
 
-  .about-me {
-    order: 1;
+  .sidebar .photo {
+    position: static;
 
-    padding: 50px 6vh 50px 6vh;
+    width: 100%;
   }
 
-  .sidebar {
-    order: 2;
+  .about-me {
+    padding-right: 2vw;
+    padding-left: 2vw;
   }
 }
 
@@ -177,7 +203,6 @@ body {
   margin-bottom: 10px;
 }
 
-
 /*
  *.projects-container a {
  *  color: #595959;
@@ -238,8 +263,7 @@ body {
 }
 
 .profession-duties {
-  margin-top: 14px;
-  margin-bottom: 30px;
+  margin: 14px 6px 30px 12px;
 }
 
 .profession-duties li {
