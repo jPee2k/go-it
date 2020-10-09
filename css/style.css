@@ -48,7 +48,7 @@ body {
   .about-me {
     order: 1;
 
-    padding: 50px 5vw 50px 5vw;
+    padding: 16px 5vw 50px 5vw;
   }
 
   .sidebar {
@@ -67,6 +67,11 @@ body {
     right: 5vw;
     top: 10vh;
   }
+
+  .info-container #name {
+    font-size: 35px;
+    line-height: 55px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -84,6 +89,17 @@ body {
   .about-me {
     padding-right: 2vw;
     padding-left: 2vw;
+  }
+
+  .info-container #profession {
+    font-size: 11px;
+
+    margin-bottom: 8px;
+  }
+
+  .info-container #name {
+    font-size: 26px;
+    line-height: 39px;
   }
 }
 
